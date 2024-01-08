@@ -3,24 +3,10 @@ import {StyleSheet, View} from "react-native"
 
 const Flex = () => {
     return (
-        <View style={[
-            styles.container,
-            {
-                flexDirection: 'coloum',
-            }
-        ]}>
-            <View style={{
-                flex: 1,
-                backgroundColor: 'red',
-            }}/>
-            <View style={{
-                flex: 2,
-                backgroundColor: 'white',
-            }}/>
-            <View style={{
-                flex: 3,
-                backgroundColor: 'blue',
-            }}/>
+        <View style={[styles.container, {flexDirection: 'coloum',}]}>
+            <View style={{flex: 1, backgroundColor: 'red',}}/>
+            <View style={{flex: 2, backgroundColor: 'white',}}/>
+            <View style={{flex: 3, backgroundColor: 'blue',}}/>
         </View>
     )
 }
